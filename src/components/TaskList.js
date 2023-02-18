@@ -4,6 +4,7 @@ import TaskCard from './TaskCard'
 
 const TaskLlist = () => {
 const {todos}=useSelector(state=>state)
+console.log(todos)
 
   return (
     <div>
